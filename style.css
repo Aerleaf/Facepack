@@ -1,0 +1,98 @@
+/* General Reset */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  header {
+    text-align: center;
+    padding: 20px;
+    background: #4CAF50;
+    color: white;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    background: #333;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+  }
+  
+  nav ul li a:hover {
+    background: #4CAF50;
+    border-radius: 5px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  h2 {
+    color: #4CAF50;
+  }
+  
+  .ingredient-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .ingredient {
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .ingredient img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  footer {
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 10px;
+  }
+  
+  footer p {
+    margin: 5px 0;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .ingredient {
+      width: 45%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .ingredient {
+      width: 90%;
+    }
+  
+    nav ul li {
+      display: block;
+      margin: 10px 0;
+    }
+  }
+  
